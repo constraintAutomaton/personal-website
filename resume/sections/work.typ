@@ -33,7 +33,7 @@ Designed and developed an IoT system for managing hydroponic components in an ur
   title: "Intern",
   location: "Sainte-Foy, Qc, Canada",
   company: "Systèmes Vireo",
-  dates: dates-helper(start-date: "October 2018", end-date: "March 2020"),
+  dates: dates-helper(start-date: "May 2018", end-date: "August 2018"),
 )
 
 Designed and developed electronic systems for hydroponic applications, including schematic design with KiCad and development of a management interface using Python and PyQt.
