@@ -3,7 +3,8 @@
             <h1><a href="./">Constraint Automaton</a></h1>
     </div>
     <div>
-        <a href="./resume">Resume</a>
+        <a href="/resume.pdf">Resume</a>
+        <a href="/publication.bib">Publication</a>
     </div>
 </div>
 
