@@ -2,6 +2,10 @@
 
 My personal website 🙂
 
+## Dependencies
+- [Bun v1.2.7](https://bun.sh/)
+- [typst v0.13.1](https://github.com/typst/typst)
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
