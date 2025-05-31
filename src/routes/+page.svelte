@@ -29,9 +29,9 @@
 	<p class="summary">
 		I'm a PhD student in computer science, currently researching decentralized querying. I'm also
 		very interested in logic programming (mainly Prolog 🙂) and functional programming. You can find
-		most of my work on <a href="https://github.com/constraintAutomaton">GitHub</a>. The source code
+		most of my work on <a href="https://github.com/constraintAutomaton" target="_blank">GitHub</a>. The source code
 		of this website is
-		<a href="https://github.com/constraintAutomaton/personal-website">available here</a>.
+		<a href="https://github.com/constraintAutomaton/personal-website" target="_blank">available here</a>.
 	</p>
 </div>
 
@@ -51,9 +51,11 @@
 		padding-left: 2vw;
 		padding-right: 2vw;
 	}
-	:global(body) {
-		display: flex;
-		justify-content: center;
+	:global(body), :global(.svelte-div) {
+		display: flex !important;
+		flex-direction: column !important;
+		align-self: center !important;
+		justify-content: center !important;
 		font-family: 'Courier New';
 	}
 </style>
