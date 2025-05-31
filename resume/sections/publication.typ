@@ -8,4 +8,4 @@
 
 - #cite(<tam_iswc_2023>, form:"full")
 
-- #cite(<tam2022jumeau>, form:"full")
+- #cite(<tam_2022_jumeau>, form:"full")
