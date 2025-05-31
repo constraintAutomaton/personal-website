@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "personal-website",
+      "dependencies": {
+        "@dataset.sh/bibtex-parser": "^0.0.1",
+      },
       "devDependencies": {
         "@chromatic-com/storybook": "^3",
         "@eslint/compat": "^1.2.5",
@@ -65,6 +68,8 @@
     "@csstools/css-parser-algorithms": ["@csstools/css-parser-algorithms@3.0.4", "", { "peerDependencies": { "@csstools/css-tokenizer": "^3.0.3" } }, "sha512-Up7rBoV77rv29d3uKHUIVubz1BTcgyUK72IvCQAbfbMv584xHcGKCKbWh7i8hPrRJ7qU4Y8IO3IY9m+iTB7P3A=="],
 
     "@csstools/css-tokenizer": ["@csstools/css-tokenizer@3.0.3", "", {}, "sha512-UJnjoFsmxfKUdNYdWgOB0mWUypuLvAfQPH1+pyvRJs6euowbFkFC6P13w1l8mJyi3vxYMxc9kld5jZEGRQs6bw=="],
+
+    "@dataset.sh/bibtex-parser": ["@dataset.sh/bibtex-parser@0.0.1", "", {}, "sha512-G8+3dmGx9S9Irm6EEZYvX0cnQDw7bx2GTeYFARiR5hY8486YQiFlU9JHpG5a6ag/8bSYJ50vMvVsrJ9ZdJidDQ=="],
 
     "@esbuild/aix-ppc64": ["@esbuild/aix-ppc64@0.25.5", "", { "os": "aix", "cpu": "ppc64" }, "sha512-9o3TMmpmftaCMepOdA5k/yDw8SfInyzWWTjYTFCX3kPSDJMROQTb8jg+h9Cnwnmm1vOzvxN7gIfB5V2ewpjtGA=="],
 
