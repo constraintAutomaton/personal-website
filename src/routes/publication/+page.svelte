@@ -55,7 +55,7 @@
 </div>
 
 <p class="text-footer">
-	A BibTeX file containing all my publications is available <a href="/publication.bib">here</a>.
+	A BibTeX file containing all my publications is available <a href="/publication.bib" target="_blank">here</a>.
 </p>
 
 <style>

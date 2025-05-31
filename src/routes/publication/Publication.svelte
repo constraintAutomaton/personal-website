@@ -4,12 +4,13 @@
 	const stringAuthors = authors.join(' and ');
 </script>
 
-<div class="publication">
-	<div><span>Title:</span> <span><a href={url} target="_blank">{title}</a></span></div>
-	<div><span>Author:</span> <span>{stringAuthors}</span></div>
-	<div><span>Year:</span> <span>{year}</span></div>
-	<div><span>Venue:</span> <span>{venue}</span></div>
+<div class="publication" vocab="https://schema.org/" typeof="ScholarlyArticle">
+	<div><span>Title:</span> <span><a property="url" href="{url}" target="_blank"><span property="name">{title}</span></a></span></div>
+	<div><span>Author:</span> <span property="author">{stringAuthors}</span></div>
+	<div><span>Year:</span> <span><meta property="datePublished" content="{year.toFixed(0)}-01-01" />{year}</span></div>
+	<div><span>Venue:</span> <span property="isPartOf">{venue}</span></div>
 </div>
+
 
 <style>
 	.publication {
