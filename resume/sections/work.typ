@@ -12,7 +12,7 @@
 Designed and implemented a search engine to assist architecture researchers in locating relevant literature references, under the supervision of a professor. Technologies used: Go, JavaScript, HTML, CSS, and Python.
 
 #work(
-  title: "Research Intern in 3D Localization of Heavy Machinery",
+  title: "Research Assistant",
   location: "Sainte-Foy, Qc, Canada",
   company: "Université Laval",
   dates: dates-helper(start-date: "May 2020", end-date: "September 2020"),
