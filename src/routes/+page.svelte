@@ -48,12 +48,12 @@
 	}
 	.summary {
 		margin-top: 3vh;
-        padding-left: 2vw;
-        padding-right: 2vw;
+		padding-left: 2vw;
+		padding-right: 2vw;
 	}
 	:global(body) {
 		display: flex;
 		justify-content: center;
-        font-family: "Courier New";
+		font-family: 'Courier New';
 	}
 </style>
