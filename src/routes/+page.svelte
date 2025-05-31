@@ -7,8 +7,9 @@
 	<p class="summary">
 		I'm a PhD student in computer science, currently researching decentralized querying. I'm also
 		very interested in logic programming (mainly Prolog 🙂) and functional programming. You can find
-		most of my work on <a href="https://github.com/constraintAutomaton">GitHub</a>.
-        The source code of this website is <a href="https://github.com/constraintAutomaton/personal-website">available here</a>.
+		most of my work on <a href="https://github.com/constraintAutomaton">GitHub</a>. The source code
+		of this website is
+		<a href="https://github.com/constraintAutomaton/personal-website">available here</a>.
 	</p>
 </div>
 
