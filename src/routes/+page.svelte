@@ -2,6 +2,28 @@
 	import Header from '../components/Header.svelte';
 </script>
 
+<svelte:head>
+	<script type="text/turtle">
+		@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+        @prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+        <#me> a foaf:Person;
+        foaf:givenName "Bryan-Elliott";
+        foaf:familyName "Tam";
+        foaf:account <https://github.com/constraintAutomaton>;
+        foaf:account <https://orcid.org/0000-0003-3467-9755>;
+        owl:sameAs <https://data.knows.idlab.ugent.be/person/bryanelliotttam/#me>.
+
+        <https://github.com/constraintAutomaton> a foaf:OnlineAccount;
+        foaf:accountName "constraintAutomaton";
+        foaf:accountServiceHomepage <https://github.com/>.
+
+        <https://orcid.org/0000-0003-3467-9755> a foaf:OnlineAccount;
+        foaf:accountServiceHomepage <https://orcid.org/>;
+        foaf:accountName "https://orcid.org/0000-0003-3467-9755".
+	</script>
+</svelte:head>
+
 <div class="content">
 	<Header />
 	<p class="summary">
