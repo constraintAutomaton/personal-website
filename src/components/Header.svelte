@@ -3,9 +3,6 @@
             <h1><a href="./">Constraint Automaton</a></h1>
     </div>
     <div>
-        <a href="./blog">Blog</a>
-        <a href="./project">Projects</a>
-        <a href="./publication">Publication</a>
         <a href="./resume">Resume</a>
     </div>
 </div>
