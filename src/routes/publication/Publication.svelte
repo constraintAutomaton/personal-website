@@ -5,7 +5,7 @@
 </script>
 
 <div class="publication">
-	<div><span>Title:</span> <span><a href={url}>{title}</a></span></div>
+	<div><span>Title:</span> <span><a href={url} target="_blank">{title}</a></span></div>
 	<div><span>Author:</span> <span>{stringAuthors}</span></div>
 	<div><span>Year:</span> <span>{year}</span></div>
 	<div><span>Venue:</span> <span>{venue}</span></div>
