@@ -1,10 +1,10 @@
-SOURCE = main.typ sections/*.typ makefile
+SOURCE = main.typ sections/*.typ makefile works.bib
 
 main.pdf: $(SOURCE)
 	typst compile main.typ
 
 main.html: $(SOURCE)
-	typst compile main.typ -f html --features html
+	typst compile -f html --features html --input "html=true" main.typ
 
 .PHONY: clean watch
 

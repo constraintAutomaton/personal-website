@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.8": *
+#import "../basic-typst-resume-template/src/lib.typ": *
 
 == Work Experience
 

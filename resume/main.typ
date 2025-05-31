@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.8": *
+#import "./basic-typst-resume-template/src/lib.typ": *
 #import "@preview/hidden-bib:0.1.1": hidden-bibliography
 
 // Put your personal information here, replacing mine
@@ -7,6 +7,15 @@
 #let github = "https://github.com/constraintAutomaton"
 #let personal-site = "https://constraint-automaton.pp.ua/"
 #let orcid="0000-0003-3467-9755"
+#let html_output = sys.inputs.at("html", default:false)
+
+
+#let set_page = true
+
+#if html_output == "true"{
+  set_page = false
+}
+
 #show: resume.with(
   author: name,
   // All the lines below are optional.
@@ -21,6 +30,7 @@
   paper: "us-letter",
   author-position: left,
   personal-info-position: left,
+  set_page:set_page
 )
 
 /*
@@ -43,6 +53,10 @@
 #include "sections/work.typ"
 #include "sections/project.typ"
 
-#hidden-bibliography(
-  bibliography("works.bib", title:none, style:"chicago-author-date")
-)
+#if html_output == false {
+  hidden-bibliography(
+    bibliography("works.bib", title:none, style:"chicago-author-date")
+  )
+}else{
+  bibliography("works.bib", title:"TO_REMOVE", style:"chicago-author-date")
+}
