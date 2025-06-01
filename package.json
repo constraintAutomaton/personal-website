@@ -13,18 +13,21 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
-		"test": "npm run test:unit -- --run"
+		"test": "npm run test:unit -- --run",
+		"generate-bib-rdf-file": "bun run ./scripts/bib_to_rdf.ts > ./static/publication.ttl"
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "^3",
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
+		"@rdfjs/types": "^2.0.1",
 		"@sveltejs/adapter-auto": "^6.0.0",
 		"@sveltejs/adapter-netlify": "^5.0.2",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/svelte": "^5.2.4",
+		"@types/bun": "^1.2.15",
 		"@types/node": "^22",
 		"@vitest/browser": "^3.1.2",
 		"@vitest/coverage-v8": "^3.1.2",
@@ -45,6 +48,9 @@
 	},
 	"dependencies": {
 		"@dataset.sh/bibtex-parser": "^0.0.1",
+		"rdf-data-factory": "^2.0.2",
+		"rdf-serialize": "^4.0.1",
+		"streamify-array": "^2.0.0",
 		"sveltekit-i18n": "^2.4.2"
 	}
 }

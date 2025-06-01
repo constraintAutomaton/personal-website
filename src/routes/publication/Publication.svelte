@@ -14,7 +14,10 @@
 		>
 	</div>
 	<div>
-		<span>{$t('publication.authors')}:</span> <span property="author">{stringAuthors}</span>
+		<span>{$t('publication.authors')}:</span> <span>{stringAuthors}</span>
+		{#each authors as author}
+			<meta property="author" content={author} />
+		{/each}
 	</div>
 	<div>
 		<span>{$t('publication.year')}:</span>

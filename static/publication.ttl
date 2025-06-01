@@ -1,0 +1,30 @@
+_:df_0_0 a <https://schema.org/ScholarlyArticle>;
+    <https://schema.org/name> "Toward a digital twin to improve the training and performance of forestry operators";
+    <https://schema.org/url> "http://dx.doi.org/10.1080/14942119.2025.2500118";
+    <https://schema.org/datePublished> "2025-01-01";
+    <https://schema.org/isPartOf> "International Journal of Forest Engineering";
+    <https://schema.org/author> "Tam, Bryan-Elliott", "Eude, Thierry", "Lebel, Luc", "Giguère, Philippe".
+_:df_0_1 a <https://schema.org/ScholarlyArticle>;
+    <https://schema.org/name> "Opportunities for Shape-based Optimization of Link Traversal Queries";
+    <https://schema.org/url> "https://arxiv.org/abs/2407.00998v2";
+    <https://schema.org/datePublished> "2024-01-01";
+    <https://schema.org/isPartOf> "Proceedings of the 16th Alberto Mendelzon International Workshop on Foundations of Data Management";
+    <https://schema.org/author> "Tam, Bryan-Elliott", "Taelman, Ruben", "Colpaert, Pieter", "Verborgh, Ruben".
+_:df_0_2 a <https://schema.org/ScholarlyArticle>;
+    <https://schema.org/name> "Optimizing traversal queries of sensor data using a rule-based reachability approach";
+    <https://schema.org/url> "https://arxiv.org/abs/2408.17157";
+    <https://schema.org/datePublished> "2024-01-01";
+    <https://schema.org/isPartOf> "Posters, Demos, and Industry Tracks: From Novel Ideas to Industrial Practice, co-located with 23nd International Semantic Web Conference (ISWC 2024).";
+    <https://schema.org/author> "Tam, Bryan-Elliott", "Taelman, Ruben", "Rojas Melendez, Julian Andres", "Colpaert, Pieter".
+_:df_0_3 a <https://schema.org/ScholarlyArticle>;
+    <https://schema.org/name> "Introducing collaborative link traversal query processing in the context of structured decentralized environments";
+    <https://schema.org/url> "https://constraintautomaton.github.io/Introducing-Collaborative-Link-Traversal-Query-Processing/";
+    <https://schema.org/datePublished> "2023-01-01";
+    <https://schema.org/isPartOf> "ISWC2023, the International Semantic Web Conference";
+    <https://schema.org/author> "Tam, Bryan-Elliott".
+_:df_0_4 a <https://schema.org/ScholarlyArticle>;
+    <https://schema.org/name> "Jumeau numérique (digital twin) pour la formation et le suivi de performance d'opérateurs de machineries lourdes";
+    <https://schema.org/url> "https://hdl.handle.net/20.500.11794/100384";
+    <https://schema.org/datePublished> "2022-01-01";
+    <https://schema.org/isPartOf> "Thèses et mémoires, Université Laval";
+    <https://schema.org/author> "Tam, Bryan-Elliott".
