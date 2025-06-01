@@ -1,7 +1,8 @@
 <script>
-    import LangButton from "../components/LangButton.svelte";
+	import LangButton from '../components/LangButton.svelte';
 	let { children } = $props();
 </script>
-<LangButton/>
+
+<LangButton />
 
 {@render children()}
