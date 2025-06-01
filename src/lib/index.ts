@@ -3,9 +3,9 @@
 export * from './translations';
 
 export interface IPublication {
-    authors: string[];
-    year: number;
-    venue: string;
-    url: string;
-    title: string;
+	authors: string[];
+	year: number;
+	venue: string;
+	url: string;
+	title: string;
 }

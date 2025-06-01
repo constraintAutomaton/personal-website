@@ -3,6 +3,7 @@
 My personal website 🙂
 
 ## Dependencies
+
 - [Bun v1.2.7](https://bun.sh/)
 - [typst v0.13.1](https://github.com/typst/typst)
 
@@ -37,6 +38,7 @@ To compile it, you'll need to install the Typst compiler and use the provided `m
 ```sh
 make
 ```
+
 For development mode with live preview, use:
 
 ```sh

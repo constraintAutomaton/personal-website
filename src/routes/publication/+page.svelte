@@ -59,14 +59,14 @@
 </p>
 
 <style>
-    .text-footer{
-        margin-left: 5vw;
-    }
+	.text-footer {
+		margin-left: 5vw;
+	}
 	.publication-block {
 		margin-top: 5vh;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
+		display: flex;
+		flex-direction: column;
+		align-self: center;
 	}
 
 	:global(body) {

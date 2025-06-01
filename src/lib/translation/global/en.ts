@@ -1,5 +1,5 @@
 export default {
-    home:"Home",
-    resume:"Resume",
-    publication:"Publication"
-}
+	home: 'Home',
+	resume: 'Resume',
+	publication: 'Publication'
+};
