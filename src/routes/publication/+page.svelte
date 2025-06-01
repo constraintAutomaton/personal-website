@@ -48,6 +48,13 @@
 </script>
 
 <Header />
+
+<noscript class="publication-block">
+	<p>
+		{@html $t('publication.noscript')}
+	</p>
+</noscript>
+
 <div class="publication-block">
 	{#each publicationEntries as publication}
 		<Publication {...publication} />
