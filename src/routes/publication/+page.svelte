@@ -4,7 +4,8 @@
 	import { onMount } from 'svelte';
 	import { parseBibtex } from '@dataset.sh/bibtex-parser';
 	import { type IPublication } from '$lib';
-	import bibtex from '../../../resume/works.bib?raw'
+	import { t } from '$lib/translations';
+	import bibtex from '../../../resume/works.bib?raw';
 
 	let publicationEntries: IPublication[] = $state([]);
 
@@ -54,8 +55,7 @@
 </div>
 
 <p class="text-footer">
-	A BibTeX file containing all my publications is available <a href="/publication.bib" target="_blank">here</a>.
-    You can also find me on <a href="https://orcid.org/0000-0003-3467-9755" target="_blank">ORCID</a>.
+	{@html $t('publication.foot')}
 </p>
 
 <style>

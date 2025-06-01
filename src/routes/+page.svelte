@@ -1,5 +1,6 @@
 <script>
 	import Header from '../components/Header.svelte';
+	import { t } from '$lib/translations';
 </script>
 
 <svelte:head>
@@ -27,11 +28,7 @@
 <div class="content">
 	<Header />
 	<p class="summary">
-		I'm a PhD student in computer science, currently researching decentralized querying. I'm also
-		very interested in logic programming (mainly Prolog 🙂) and functional programming. You can find
-		most of my work on <a href="https://github.com/constraintAutomaton" target="_blank">GitHub</a>. The source code
-		of this website is
-		<a href="https://github.com/constraintAutomaton/personal-website" target="_blank">available here</a>.
+		{@html $t('home.summary')}
 	</p>
 </div>
 
@@ -51,7 +48,8 @@
 		padding-left: 2vw;
 		padding-right: 2vw;
 	}
-	:global(body), :global(.svelte-div) {
+	:global(body),
+	:global(.svelte-div) {
 		display: flex !important;
 		flex-direction: column !important;
 		align-self: center !important;
