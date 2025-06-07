@@ -36,9 +36,9 @@
 </script>
 
 <div>
-	<button onclick={setFrench} style="background-color: {frenchBtnColor};">Fr</button><button
-		onclick={setEnglish}
-		style="background-color: {englishBtnColor};">En</button
+	<button id="french-btn" onclick={setFrench} style="background-color: {frenchBtnColor};">Fr</button
+	><button onclick={setEnglish} id="english-btn" style="background-color: {englishBtnColor};"
+		>En</button
 	>
 </div>
 
@@ -54,8 +54,17 @@
 		opacity: 1;
 	}
 
-	button {
+	#french-btn {
 		border: solid 1px;
+		border-right: solid 0.5px;
+	}
+
+	#english-btn {
+		border: solid 1px;
+		border-left: solid 0.5px;
+	}
+
+	button {
 		font-size: 1.3em;
 		background-color: gainsboro;
 	}
