@@ -20,4 +20,10 @@
 		width: 100%;
 		align-items: center;
 	}
+
+	@media (min-width: 360px) {
+		h1 {
+			font-size: 1.7em;
+		}
+	}
 </style>

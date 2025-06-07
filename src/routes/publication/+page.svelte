@@ -39,7 +39,7 @@
 		margin-left: 5vw;
 	}
 	.publication-block {
-		margin-top: 5vh;
+		margin-top: 3vh;
 		display: flex;
 		flex-direction: column;
 		align-self: center;
