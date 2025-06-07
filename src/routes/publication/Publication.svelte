@@ -15,7 +15,7 @@
 	</div>
 	<div>
 		<span>{$t('publication.authors')}:</span> <span>{stringAuthors}</span>
-		{#each authors as author}
+		{#each authors as author (author)}
 			<meta property="author" content={author} />
 		{/each}
 	</div>

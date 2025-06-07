@@ -59,4 +59,16 @@
 		font-size: 1.3em;
 		background-color: gainsboro;
 	}
+
+	@media (max-width: 750px) {
+		button {
+			font-size: 1em;
+		}
+
+		div {
+			position: relative;
+			top: 6px;
+			left: 5px;
+		}
+	}
 </style>

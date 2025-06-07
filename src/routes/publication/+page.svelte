@@ -17,6 +17,7 @@
 
 <noscript class="publication-block">
 	<p>
+		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 		{@html $t('publication.noscript')}
 	</p>
 	<div vocab="http://www.w3.org/2000/01/rdf-schema#" typeof="Resource">
@@ -25,12 +26,13 @@
 </noscript>
 
 <div class="publication-block">
-	{#each publicationEntries as publication}
+	{#each publicationEntries as publication (publication)}
 		<Publication {...publication} />
 	{/each}
 </div>
 
 <p class="text-footer">
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 	{@html $t('publication.foot')}
 </p>
 
@@ -39,7 +41,7 @@
 		margin-left: 5vw;
 	}
 	.publication-block {
-		margin-top: 5vh;
+		margin-top: 3vh;
 		display: flex;
 		flex-direction: column;
 		align-self: center;

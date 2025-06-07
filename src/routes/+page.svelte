@@ -28,6 +28,7 @@
 <div class="content">
 	<Header />
 	<p class="summary">
+		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 		{@html $t('home.summary')}
 	</p>
 </div>
@@ -39,9 +40,6 @@
 		align-items: center;
 		height: 30vh;
 		width: 60vw;
-		margin-top: 10vh;
-		border: solid 3px;
-		border-radius: 25px;
 	}
 	.summary {
 		margin-top: 3vh;
@@ -55,5 +53,17 @@
 		align-self: center !important;
 		justify-content: center !important;
 		font-family: 'Courier New';
+	}
+
+	@media (max-width: 750px) {
+		.content {
+			border: solid 0px;
+			margin-top: 0px;
+			width: 100%;
+		}
+
+		.summary {
+			width: 90%;
+		}
 	}
 </style>
