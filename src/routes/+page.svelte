@@ -28,6 +28,7 @@
 <div class="content">
 	<Header />
 	<p class="summary">
+		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 		{@html $t('home.summary')}
 	</p>
 </div>
@@ -38,7 +39,7 @@
 		flex-direction: column;
 		align-items: center;
 		height: 30vh;
-		width: 60vw;		
+		width: 60vw;
 	}
 	.summary {
 		margin-top: 3vh;
