@@ -1,6 +1,6 @@
 #import "../basic-typst-resume-template/src/lib.typ": *
 
-== Work Experience
+== Work Experiences
 
 #work(
   title: "Research Assistant",
