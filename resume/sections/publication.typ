@@ -1,4 +1,4 @@
-== Publication
+== Publications
 
 - #cite(<tam_2025>, form:"full")
 
