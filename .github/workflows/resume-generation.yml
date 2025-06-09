@@ -1,0 +1,29 @@
+name: Compile and Compare Typst PDF (Nix)
+
+on:
+  push:
+    paths:
+      - '**.typ'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v24
+
+      - name: Compile and Compare PDFs using Nix tools
+        run: |
+          nix-shell -p typst poppler --run "bash -c '
+            pushd ./resume
+            typst compile main.typ instance.pdf
+            pdftotext instance.pdf instance.txt
+            pdftotext main.pdf reference.txt
+            diff -u reference.txt instance.txt
+            popd
+          '"
