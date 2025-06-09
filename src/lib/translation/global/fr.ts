@@ -1,5 +1,6 @@
 export default {
 	home: 'Accueil',
 	resume: 'Cv',
-	publication: 'Publication'
+	publication: 'Publication',
+	blog: 'blog'
 };
