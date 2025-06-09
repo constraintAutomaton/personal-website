@@ -5,7 +5,7 @@
 #let name = "Bryan-Elliott Tam"
 #let email = "bryan_elliott_tam@protonmail.com"
 #let github = "https://github.com/constraintAutomaton"
-#let personal-site = "https://constraint-automaton.pp.ua/"
+#let personal-site = "constraint-automaton.pp.ua/"
 #let orcid="0000-0003-3467-9755"
 #let html_output = sys.inputs.at("html", default:false)
 
