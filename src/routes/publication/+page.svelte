@@ -13,6 +13,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Publication</title> 
+</svelte:head>
+
 <Header />
 
 <noscript class="publication-block">

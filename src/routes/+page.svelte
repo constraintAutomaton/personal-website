@@ -4,6 +4,7 @@
 </script>
 
 <svelte:head>
+	<title>Constraint Automaton</title> 
 	<script type="text/turtle">
 		@prefix foaf: <http://xmlns.com/foaf/0.1/>.
         @prefix owl: <http://www.w3.org/2002/07/owl#>.
