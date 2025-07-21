@@ -48,10 +48,10 @@
 */
 
 #include "sections/education.typ"
-#include "sections/publication.typ"
 #include "sections/skills.typ"
 #include "sections/work.typ"
 #include "sections/project.typ"
+#include "sections/publication.typ"
 
 #if html_output == false {
   hidden-bibliography(
