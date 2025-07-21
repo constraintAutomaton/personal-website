@@ -13,7 +13,6 @@
 - Research Topic: Decentralized Web Querying of Knowledge Graphs Databases
 - Additional Responsibilities:
   - Teaching assistant for the Knowledge Graphs course
-  - Supervised master’s students in related research areas
   - Member of the program committee for the #link("https://semantics2025.semdev.org/")[SEMANTiCS 2025 Developers Workshop]
 
 
