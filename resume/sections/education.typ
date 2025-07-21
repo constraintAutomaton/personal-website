@@ -10,10 +10,9 @@
   consistent: true
 )
 
-- Research Topic: Decentralized Web Querying of Knowledge Graphs
+- Research Topic: Decentralized Web Querying of Knowledge Graphs Databases
 - Additional Responsibilities:
   - Teaching assistant for the Knowledge Graphs course
-  - Supervised master’s students in related research areas
   - Member of the program committee for the #link("https://semantics2025.semdev.org/")[SEMANTiCS 2025 Developers Workshop]
 
 
@@ -25,8 +24,7 @@
   consistent: true
 )
 
-- Thesis topic: Digital Twin to improve training and performance of forestry
-operators
+- Thesis topic: Digital Twin to Improve Training and Performance of Forestry Operators
 
 #edu(
   institution: "Université Laval",
@@ -36,7 +34,7 @@ operators
   consistent: true
 )
 
-
+/**
 #edu(
   institution: "Cégep de Sainte-Foy",
   location: "Sainte-Foy, Qc, Canada",
@@ -44,3 +42,4 @@ operators
   degree: "College diploma, Natural Science",
   consistent: true
 )
+*/
