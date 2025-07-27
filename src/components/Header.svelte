@@ -10,6 +10,7 @@
 		<a href="/">{$t('global.home')}</a>
 		<a href="/resume.pdf" target="_blank">{$t('global.resume')}</a>
 		<a href="/publication">{$t('global.publication')}</a>
+		<a href="/project">{$t('global.project')}</a>
 	</div>
 </div>
 

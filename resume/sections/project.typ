@@ -74,7 +74,7 @@ Developed software that converts citations stored in a knowledge graph into SVG 
   name: "Remote-controlled car"
 )
 
-Design of a remote-controlled car from Raspberry Pi. The codes were made with the python programming language.
+Design of a remote-controlled car from Raspberry Pi. The codes were made with the Python programming language.
 
 - #link("https://github.com/constraintAutomaton/PgU1")[Raspberry pi code]: github
 - #link("https://github.com/constraintAutomaton/client_pgU1")[client code]
@@ -95,4 +95,4 @@ pyQt.
 Design of a Web Scraper to download manga chapters and convert them to PDF. The graphical interface is done with pyQt.
 
 - #link("https://youtu.be/W9wOKKn00BE")[video]
-- #link("https://github.com/constraintAutomaton/mangaScraper ")[source code]
+- #link("https://github.com/constraintAutomaton/mangaScraper")[source code]
