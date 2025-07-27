@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Publication</title> 
+	<title>{$t('global.publication')}</title> 
 </svelte:head>
 
 <Header />
